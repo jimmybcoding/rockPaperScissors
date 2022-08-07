@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&family=Josefin+Sans:wght@500&family=Poppins:wght@200&display=swap');
+
+button {
+    background-color: rgba(70, 66, 66, 0.445);
+    color: antiquewhite;
+    border: none;
+    height: 30vh;
+    width: 30vh;
+    font-size: 9vh;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+button:hover {
+    background-color: black;
+}
+
+body {
+    background-color: rgba(197, 168, 4, 0.932);
+}
+
+div {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
